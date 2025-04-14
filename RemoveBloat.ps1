@@ -186,7 +186,6 @@ $WhitelistedApps = @(
     'Microsoft.WindowsCamera',
     '.NET Framework',
     'Microsoft.HEIFImageExtension',
-    'Microsoft.ScreenSketch',
     'Microsoft.StorePurchaseApp',
     'Microsoft.VP9VideoExtensions',
     'Microsoft.WebMediaExtensions',
@@ -206,9 +205,12 @@ $WhitelistedApps = @(
     'Dell Display Manager 2.2',
     'Dell Peripheral Manager',
     'Microsoft.Paint',
-    #'Microsoft.OutlookForWindows',
+    'Microsoft.OutlookForWindows',
     'Microsoft.WindowsTerminal',
-    'Microsoft.MicrosoftEdge.Stable'
+    'Microsoft.MicrosoftEdge.Stable',
+    "Microsoft.GetHelp",
+    "Microsoft.Whiteboard",
+    "Microsoft.ZuneVideo"
 )
 ##If $customwhitelist is set, split on the comma and add to whitelist
 if ($customwhitelist) {
