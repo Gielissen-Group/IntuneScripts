@@ -297,7 +297,7 @@ $appstoignore = $WhitelistedApps += $NonRemovable
 ##Bloat list for future reference
 $Bloatware = @(
 #Unnecessary Windows 10/11 AppX Apps
-"9nx5372pr99p"
+"*HPAICompanion*"
 "*ActiproSoftwareLLC*"
 "*AdobeSystemsIncorporated.AdobePhotoshopExpress*"
 "*BubbleWitch3Saga*"
